@@ -37,6 +37,19 @@
     text-align: center;
 }
 
+.notcurrentmonth{
+    opacity: 0.3;
+}
+
+.holidays{
+    color:red
+}
+
+.weekenddays{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .days div{
     height: 42px;
     width: 42px;
@@ -45,7 +58,8 @@
     font-size: 17px;
 }
 
-#currentday{
-    font-weight: 500;
-    font-size: 19px;
+.currentday{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(4, 163, 4, 0.842);
 }
