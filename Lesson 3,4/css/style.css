@@ -1,7 +1,8 @@
-/*
-
-*/
+.clear{
+    clear: both;
+}
 #calendar{
+    border: 10px solid grey;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
@@ -13,6 +14,16 @@
     color: white;
     height: 300px;
     width: 300px;
+}
+
+.month{
+    float: left; 
+    padding-left: 26px;
+}
+
+.year{
+    float: right;
+    padding-right: 25px;
 }
 
 .currentmonth{
@@ -27,7 +38,7 @@
     padding-top: 9px;
 }
 
-.weekdays div{
+.weekdays{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     font-size: 21px;
@@ -50,7 +61,7 @@
     font-weight: bold;
 }
 
-.days div{
+.days{
     height: 42px;
     width: 42px;
     text-align: center;
