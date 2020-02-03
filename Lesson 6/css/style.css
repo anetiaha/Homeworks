@@ -1,0 +1,171 @@
+#landscape{
+    background-image: url(../img/Lanscape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 1361px;
+    height: 766px;    
+}
+
+.mars{
+    background-image: url(../img/mars.png);
+    background-size: cover;
+    position: absolute;
+    left: 1035px;
+    top: 50px;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+}
+
+.moon{
+    background-image: url(../img/moon_planet.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 217px;
+    left: 310px;
+    opacity: 0.9;
+    width: 200px;
+    height: 200px;        
+}
+.joda{
+    background-image: url(../img/joda.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    left: 15px;
+    width: 200px;
+    height: 200px;    
+}
+
+.c3po{
+    background-image: url(../img/c3po.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 550px;
+    left: 1130px;
+    width: 120px;
+    height: 300px;    
+}
+
+.spaceship{
+    background-image: url(../img/spaceship1.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 300px;
+    left: 1210px;
+    width: 110px;
+    height: 110px;
+    z-index: 6;
+}
+.spaceship2{
+    background-image: url(../img/spaceship1.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 330px;
+    left: 1160px;
+    width: 110px;
+    height: 110px;
+    z-index: 5;
+}
+.spaceship3{
+    background-image: url(../img/spaceship1.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 260px;
+    left: 1170px;
+    width: 110px;
+    height: 110px;
+    z-index: 4;
+}
+
+.dart{
+    background-image: url(../img/dart.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 545px;
+    left: 520px;
+    width: 160px;
+    height: 200px;
+    
+}
+
+.chewbaka{
+    background-image: url(../img/chewbaka.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 570px;
+    left: 670px;
+    width: 135px;
+    height: 150px;    
+}
+
+.spaceship4{
+    background-image: url(../img/spaceship2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 200px;
+    left: 60px;
+    width: 130px;
+    height: 150px;
+    z-index: 8;
+}
+.spaceship5{
+    background-image: url(../img/spaceship2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 240px;
+    left: 130px;
+    width: 130px;
+    height: 150px;
+    z-index: 7;
+}
+
+.spaceship6{
+    background-image: url(../img/spaceship2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 260px;
+    left: 40px;
+    width: 130px;
+    height: 150px;
+    z-index: 6;
+}
+
+.trooper{
+    background-image: url(../img/trooper.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 636px;
+    left: 344px;
+    width: 100px;
+    height: 150px;
+   
+}
+
+.mashine{
+    background-image: url(../img/spaceship2.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 230px;
+    left: 400px;
+    width: 130px;
+    height: 150px;
+    z-index: 7;
+
+}
