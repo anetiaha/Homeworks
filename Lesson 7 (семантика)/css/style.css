@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'nk170regular';
+    src: url('../fonts/18875-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'nk170regular';
+    font-size: 16px;
+}
+
+/*
+
+.wrapper{
+    max-width: 1024 px;
+    margin: 0 auto;
+}
+
+*/
+
+.header_top{
+    background: gainsboro;
+    max-width: 1024px;
+}
+
+.top_logo{
+    background-image: url(../img/manutd_logo.png);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-size: contain;
+}
+
+.header_middle{
+    float: left;
+}

@@ -1,0 +1,54 @@
+#statistic{
+    width: 1000px;
+   border: 1px solid black;
+   padding: 2px;
+}
+
+.statistic_table{
+    width: 100%;
+    border-collapse: collapse;   
+    border: 2px solid black;
+}
+
+.caption{
+   font-weight: 600;
+}
+
+.thead{
+   border: 2px solid black;
+}
+
+.statistic_table tbody tr:first-child td:nth-child(2), .statistic_table tbody tr:nth-child(2) td:first-child{
+    border-left: 0;
+    vertical-align: top;
+}
+
+.statistic_table tbody tr:first-child td:nth-child(1), .statistic_table tbody tr:nth-child(2) td:nth-child(2){
+    border-right: 0;
+}
+
+.statistic_table thead tr:first-child th:nth-child(2), .statistic_table thead tr:nth-child(2) tr:first-child,
+.statistic_table tbody tr:first-child td:nth-child(4), .statistic_table tfoot tr:first-child td:nth-child(3){
+    border-left: 2px solid black;
+}
+
+.statistic_table tbody tr:nth-child(2) td:nth-child(3){
+    border-left: 2px solid black;
+    vertical-align: top;
+    text-align: right;
+}
+.statistic_table tbody tr:first-child td:first-child, .statistic_table tfoot tr:first-child td:first-child{
+    vertical-align: top;
+}
+
+.statistic_table thead tr:first-child th:last-child{
+    vertical-align: bottom;
+}
+
+.statistic_table tbody tr td:nth-child(n+4),
+.statistic_table tfoot tr td:nth-of-type(n+3)
+{
+    vertical-align: top;
+    text-align: right;
+}
+
