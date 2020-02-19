@@ -18,6 +18,11 @@ body {
     margin: 0 auto;
 }
 
+.clear{
+    clear: both;
+}
+
+<div class="clear"></div>
 */
 
 .header_top{
@@ -31,6 +36,7 @@ body {
     height: 100px;
     position: relative;
     background-size: contain;
+    
 }
 
 .header_middle{
