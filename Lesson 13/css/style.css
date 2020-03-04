@@ -1,0 +1,39 @@
+
+body{
+    background-color: #3e3b4a;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-top{
+    display: flex;
+}
+
+.header-top{
+    justify-content: space-between;
+}
+
+.site-name{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.site-name_descr{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #797681;
+}
+
+
+
+  
