@@ -24,7 +24,9 @@
   
   .header-top,
   .articles,
-  .footer {
+  .footer,
+  .form-email,
+  .subscribe{
     display: flex;
   }
   
@@ -56,8 +58,7 @@
   h3 {
     font-size: 36px;
   }
-  
-  /* стилизация */
+
   .header-top-menu a,
   .header-top-search a {
     font-size: 12px;
@@ -234,6 +235,11 @@
     border: 3px solid;
     font-size: 20px;
     font-weight: bold;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
   }
   
   .form-email {
@@ -246,7 +252,7 @@
     background-color: #66689c;
   
     border-color: #66689c;
-    
+
   }
   
   .form-bottom {
@@ -297,7 +303,10 @@
   .copyright{
     flex-grow: 1;
   }
-  
+  .article6-descr{
+    width: 210px;
+    font-size: 20px;
+  }
   .footer {
     margin-bottom: 65px;
     justify-content: flex-start;
