@@ -1,7 +1,44 @@
+@media screen and (max-width: 1300px){
+    body{
+        margin: 0 30px;
+     }
+   /*.article1{
+        max-width: 100%;
+    }*/
+
+    .article2{
+        /*flex-basis: 480px; */
+        flex-grow: 1;
+        
+    }
+
+    .article3{
+        margin-left: 20px;
+    }
+    .article1,
+    .article2,
+    .article3,
+    .article4,
+    .article5,
+    .article6{
+        margin: ;
+    }
+    /*
+    .article4,
+    .article5{
+        flex-basis: 230px;
+    }
+
+    .article6{
+        flex-basis: 420px;
+        flex-grow: 1;
+    } */
+}
+
 @media screen and (max-width: 768px){
-    .article1{
-        
-       
-        
-   }
+    .article2{
+        margin: 0;
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
 }
