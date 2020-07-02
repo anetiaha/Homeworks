@@ -76,12 +76,12 @@ let order = {
       item1:{
           name: 'Чашка',
           cost: 100,
-          weight: '0.2',
+          weight: 0.2,
       },
       item2:{
           name: 'Ложка',
           cost: 30,
-          weight: '0.1',
+          weight: 0.1,
       },
       item3: {
           name: 'Чайник',
@@ -91,7 +91,7 @@ let order = {
       item4: {
           name: 'Кружка',
           cost: 150,
-          weight: '0.4',
+          weight: 0.4,
     }
   }
 
