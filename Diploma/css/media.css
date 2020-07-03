@@ -1,0 +1,184 @@
+@media screen and (max-width: 1220px) {
+.header_transparent1{
+    width: 16%;
+}
+
+.menu{
+    width: 46%;
+}
+
+.header_transparent2{
+    width: 38%;
+}
+
+.transparent1{
+    width: 14%;
+}
+
+.transparent2{
+    width: 40%;
+}
+
+.article1{
+    font-size: 30px;
+}
+
+.article2{
+    font-size: 70px;
+}
+
+.content2{
+    margin-top: 320px;
+    height: 685px;
+}
+
+.transparent3{
+    width: 10%;
+}
+
+.image_container{
+    background-size: contain;
+    background-position: right top;
+    height: 663px;
+}
+
+.con2_art_img,
+.con2_art2_img{
+    padding-top: 12px;
+}
+
+.red_square{
+    font-size: 18px;
+}
+
+.con2_art_text,
+.con2_art2_text{
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+.con2_art2_img{
+    margin-top: 48px;
+}
+
+.content3{
+    height: 300px
+}
+
+.content4{
+    background-size: cover;
+    height: 500px;
+}
+.transparent4{
+    width: 14%;
+}
+.content4_container{
+    width: 26%;
+}
+.content4_name{
+    font-size: 16px;
+}
+
+.content4_descr{
+    margin-top: 20px;
+    font-weight: 100;
+}
+.transparent5{
+    width: 60%;
+}
+
+.footer_transparent1{
+    width: 25%;
+}
+
+.menu_footer{
+    width: 50%;
+}
+
+.footer_transparent2{
+    width: 25%;
+}
+}
+
+@media screen and (max-width: 768px) {
+body{
+    background-size: contain;
+}
+header{
+    margin-top: 25px;
+}
+.header_transparent1{
+    width: 25%;
+}
+.menu{
+    width: 50%;
+}   
+.header_transparent2{
+    width: 25%;
+}
+.transparent1,
+.transparent2{
+    display: none;
+}
+.content1,
+.content2{
+    justify-content: center;
+}
+.content1_inf{
+    align-items: center;
+}
+.content2{
+    margin-top: 40px;
+    height: auto;
+}
+.transparent3,
+.content2_image{
+    display: none;
+}
+.content2_articles{
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-basis: 98%;
+    justify-content: center;
+}
+
+.con2_art_img,
+.con2_art2_img {
+    margin-top: 0;
+}
+
+.con2_art_text,
+.con2_art2_text {
+    width: 75%;
+    margin-left: 2%;
+    margin-top: 0;
+}
+
+.con2_art2_img,
+.con2_art2_text{
+    margin-top: 40px;
+}
+
+.content3{
+    margin-top: 40px;
+    height: 150px;
+}
+
+.numbers {
+    font-size: 32px;
+}
+.content4{
+    
+}
+.content4_container{
+    flex-basis: 90%;
+}
+.transparent4,
+.transparent5{
+    display: none;
+}
+
+
+}
