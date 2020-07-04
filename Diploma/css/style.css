@@ -60,7 +60,7 @@ a{
   line-height: 1;
 }
 
-header {
+.header {
   flex-wrap: nowrap;
   margin-top: 62px;
 }
@@ -86,7 +86,7 @@ h2 {
   width: 648px;
 }
 
-header,
+.header,
 .menu,
 .action_buttons,
 .content,
